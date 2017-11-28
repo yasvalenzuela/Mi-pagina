@@ -1,0 +1,273 @@
+/*
+Resetear el navegador
+*/
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/*
+seccion menu
+*/
+#menu {
+  background-color: #993767;
+  padding: 1%;
+}
+
+#menu ul li {
+  list-style: none;
+  display: inline-flex;
+  margin-left: 2%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  color: #ffffff;
+  font-size: 1em;
+  font-family: 'Quicksand', sans-serif;
+}
+
+#menu ul li:first-child {
+  margin-left: 7%;
+  margin-right: 55%;
+  font-size: 2em;
+  font-family: 'Lobster', cursive;
+}
+
+#menu ul li:last-child {
+  display: none;
+}
+
+#menu ul li:hover {
+  color: #BE5168;
+}
+
+/*
+primera seccion
+*/
+#primeraParte {
+  background-image: url(../images/headers.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: 5% 45%;
+  background-size: cover;
+  height: 60vh;
+  padding: 10% 5%;
+  font-size: 50px;
+  height: 60vh;
+}
+
+/*
+segunda seccion
+*/
+
+#segundoContenedor {
+  background-color: #A34974;
+}
+
+#segundaParte {
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-bottom: 5%;
+  font-size: 20px;
+  font-family: 'Quicksand', sans-serif;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  background-color: #BE5168;
+  padding: 1%;
+  color: #ffffff;
+}
+
+#segundaParte h3 {
+  padding: 1%;
+  font-family: 'Lobster', cursive;
+  font-size: 1.5em;
+}
+
+#segundaParte p {
+  padding: 1%;
+  margin-right: 5%;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1em;
+
+}
+
+#segundaParte #button {
+  border-radius: 5px;
+  background-color: #A34974;
+  border: none;
+  padding: 2%;
+  font-size: 17px;
+  margin-bottom: 5%;
+  color: #ffffff;
+  font-family: 'Quicksand', sans-serif;
+}
+
+#segundaParteFinal {
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-bottom: 5%;
+  font-size: 20px;
+  font-family: 'Quicksand', sans-serif;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  background-color: #BE5168;
+  padding: 3%;
+  color: #ffffff;
+}
+
+#segundaParteFinal h3 {
+  padding: 1%;
+  margin-left: 3%;
+  font-family: 'Lobster', cursive;
+  font-size: 1.5em;
+}
+
+#segundaParteFinal h5 {
+  padding: 1%;
+  margin-left: 3%;
+  font-family: 'Quicksand', sans-serif;
+}
+
+#segundaParteFinal p {
+  padding: 0%;
+  margin-top: 15%;
+  margin-left: 1%;
+  font-size: 0.8em;
+  font-family: 'Quicksand', sans-serif;
+}
+
+/*
+tercera seccion
+*/
+
+#terceraParte {
+  margin-top: 5%;
+  margin-left: 14%;
+  margin-bottom: 5%;
+}
+
+#terceraParteInicio {
+  margin-left: 1%;
+  border: 2px groove #A34974;
+}
+
+#button {
+  border-radius: 5px;
+  background-color: #A34974;
+  border: none;
+  padding: 3%;
+  font-size: 15px;
+  margin-bottom: 5%;
+  color: #ffffff;
+  font-family: 'Quicksand', sans-serif;
+}
+
+#terceraParteInicio img, p, button {
+  margin-top: 5%;
+  margin-left: 10%;
+  font-family: 'Quicksand', sans-serif;
+}
+
+#terceraParteInicio #title {
+  margin-top: 5%;
+  margin-left: 10%;
+}
+
+#terceraParteInicio img {
+  width: 80%;
+}
+
+#terceraParteMedio {
+  margin-left: 5%;
+  border: 2px groove #A34974;
+}
+
+#terceraParteMedio img, h3, h5, button {
+  margin-top: 5%;
+  margin-left: 10%
+  font-family: 'Quicksand', sans-serif;
+}
+
+#terceraParteMedio img {
+  width: 80%;
+  margin-left: 10%;
+}
+
+#terceraParteUltima {
+  margin-left: 5%;
+  border: 2px groove #A34974;
+}
+
+#terceraParteUltima img, h3, h5, button {
+  margin-top: 5%;
+  margin-left: 10%;
+  font-family: 'Quicksand', sans-serif;
+}
+
+#terceraParteUltima img {
+  width: 80%;
+}
+
+#footer {
+  background-color: #993767;
+  color: #ffffff;
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+}
+
+#footer p {
+  margin-bottom: 3%;
+}
+
+
+@media (max-width: 767px) {
+  [class*="col-"] {
+    max-width: 100%;
+    flex: none;
+  }
+
+  body {
+    padding: 0;
+    margin: 0;
+  }
+
+  #menu ul li {
+    display: none;
+  }
+
+  #menu ul li:first-child {
+    display: inline-block;
+    padding: 1%;
+    margin: 0;
+  }
+
+  #menu ul li:last-child {
+    display: inline-block;
+    margin-left: 75%;
+    margin-bottom: 5%;
+    
+  }
+
+  #segundaParte {
+    margin-left: 0;
+  }
+
+  #terceraParte {
+    margin: 0;
+    padding: 0;
+  }
+
+  #terceraParteInicio {
+    margin: 0;
+    padding: 0;
+  }
+
+  #terceraParteMedio {
+    margin: 0;
+    padding: 0;
+  }
+
+  #terceraParteUltima {
+    margin: 0;
+    padding: 0;
+  }
